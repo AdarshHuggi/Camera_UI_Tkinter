@@ -1,0 +1,97 @@
+Slide 1: Title Slide
+Title: Introduction to DuckDB
+Subtitle: An Efficient In-Process SQL Database
+Presented by: [Your Name]
+Date: [Today's Date]
+       
+Slide 2: Agenda
+Title: Agenda
+Content:
+What is DuckDB?
+Key Features
+Architecture
+Performance Comparison
+Use Cases
+Getting Started
+Q&A
+       
+Slide 3: What is DuckDB?
+Title: What is DuckDB?
+Content:
+Overview:
+DuckDB is an in-process SQL OLAP (Online Analytical Processing) database management system.
+Design Goals:
+Designed for efficient analytical queries.
+Aims to provide high performance with minimal setup.
+Open-Source:
+Licensed under the MIT license, allowing free use and modification.
+Usage Context:
+Ideal for data analysis, machine learning, and other data-intensive tasks.
+       
+Slide 4: Key Features
+Title: Key Features
+Content:
+In-Process Execution:
+Runs within the host process, eliminating the need for client-server communication.
+Lightweight:
+Minimal dependencies and easy to deploy.
+SQL-92 Standard Support:
+Comprehensive support for standard SQL queries.
+High Performance:
+Optimized for complex analytical queries and large datasets.
+Cross-Platform:
+Available on Windows, macOS, and Linux.
+Efficient Data Import/Export:
+Supports CSV, Parquet, and other common formats.
+       
+Slide 5: Architecture
+Title: Architecture
+Content:
+In-Process Design:
+Runs within the same process as the application, providing low-latency access to data.
+Columnar Storage Format:
+Organizes data by columns rather than rows, optimizing for read-heavy analytical workloads.
+Vectorized Execution Engine:
+Processes data in batches, leveraging modern CPU architectures for efficient execution.
+Parallel Execution:
+Utilizes multiple CPU cores to perform parallel query execution, improving performance on multi-core systems.
+       
+Slide 6: Performance Comparison
+Title: Performance Comparison
+Content:
+Comparison with SQLite:
+DuckDB is designed for analytical workloads, while SQLite is optimized for transactional workloads.
+Benchmarks:
+Typical analytical queries (e.g., aggregations, joins) show significant performance improvements over traditional row-based databases.
+Resource Efficiency:
+Lower memory and CPU usage for large datasets compared to many traditional databases.
+       
+Slide 7: Use Cases
+Title: Use Cases
+Content:
+Embedded Analytics:
+Integrate directly within applications to provide real-time analytics.
+Data Science and Machine Learning:
+Efficiently process and analyze large datasets for model training and evaluation.
+Interactive Data Analysis:
+Use with tools like Jupyter notebooks for exploratory data analysis.
+ETL Processes:
+Perform extract, transform, load operations efficiently.
+Ad-Hoc Querying:
+Quickly run complex queries without the need for extensive setup.
+       
+Slide 8: Getting Started
+Title: Getting Started
+Content:
+Installation:
+Detailed steps for installing DuckDB on Windows, macOS, and Linux.
+Example: pip install duckdb for Python users.
+Basic SQL Commands:
+Examples of creating tables, inserting data, and running queries.
+CREATE TABLE, INSERT INTO, SELECT.
+Example Queries:
+Simple to complex queries demonstrating DuckDB's capabilities.
+Aggregations, joins, filtering.
+Integration:
+Using DuckDB with Python (pandas), R, and other languages.
+Example: Loading a DataFrame into DuckDB and running a SQL query.
